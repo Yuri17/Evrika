@@ -1,5 +1,6 @@
 html {
-	box-sizing: border-box; 
+	box-sizing: border-box;
+	background: url('../img/back.jpg') no-repeat 0 170px;
 }
 
 *,
@@ -11,12 +12,200 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	line-height: 21px;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: "Raleway", sans-serif;;
+	color: #000000;
 }
 
 .container {
 	position: relative;
-	width: 1440px;
+	width: 1240px;
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #FFF;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*=================================================================
+----------------------------Header---------------------------------
+=================================================================*/
+
+.main-header {
+	width: 100%;
+	height: 102px;
+	vertical-align: middle;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+.logo {
+	position: absolute;
+	top: 12px;
+	left: 49px;
+	z-index: 10;
+	width: 300px;
+	height: 72px;
+}
+
+.menu {
+	width: 889px;
+	height: 101px;
+	margin: 0;
+	margin-left: 380px;
+	padding: 0;
+	padding-top: 41px;
+	list-style: none;
+}
+
+.menu li {
+	float: left; 
+	list-style-type: none;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.menu li:nth-child(1) {
+	width: 118px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu li:nth-child(2) {
+	width: 105px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu li:nth-child(3) {
+	width: 103px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.user-block {
+	width: 150px;
+	padding-left: 57px;
+	padding-right: 57px;	
+}
+
+.search {
+	width: 180px;
+}
+
+.tel {
+	margin-top: -30px;
+	padding-left: 40px;
+}
+
+.tel p {
+	text-transform: lowercase;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #000;
+}
+
+/*====================================================================
+--------------------------------Main----------------------------------
+====================================================================*/
+
+.breadcrumbs {
+	width: 100%;
+	height: 50px;
+	background-color: #f6f6f6;
+	border-top: 4px solid #e33321;
+}
+
+.breadcrumbs ul {
+	padding-left: 49px;
+}
+
+.breadcrumbs li {
+	float: left;
+	width: 60px;
+	list-style: none;
+	text-decoration: none;
+}
+
+.breadcrumbs li:before {
+	content: "  /   ";
+}
+
+.breadcrumbs li:nth-child(1):before {
+	content: "";
+}
+
+.breadcrumbs li:nth-child(3) {
+	width: 250px;
+}
+
+.breadcrumbs a {
+	text-decoration: none;
+	color: #000;
+}
+
+h1 {
+	width: 100%;
+	padding-left: 47px;
+	padding-top: 17px;
+	padding-bottom: 29px;
+	font-size: 41px;
+	font-weight: bold;
+}
+
+.left-menu {
+	float: left;
+	width: 243px;
+}
+
+.main-info {
+	float: left;
+	width: 947px;
+	background-color: #f6f6f6;
+}
+
+.description {
+	width: 937px;
+	height: 236px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding-left: 33px;
+	padding-top: 17px;
+	background-color: #FFF;
+}
+
+.description h2 {
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 26px;
+}
+
+.description p {
+	font-size: 17px;
+	line-height: 28px;
+	font-stretch: expanded;
+}
+
+.stage {
+	width: 100%;
+	padding-top: 13px;
+	padding-left: 38px;
+}	
+
+.stage h2 {
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 26px;
 }
