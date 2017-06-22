@@ -15,7 +15,7 @@ body {
 	line-height: 21px;
 	font-size: 12px;
 	font-weight: normal;
-	font-family: "Raleway", sans-serif;;
+	font-family: "Raleway", sans-serif;
 	color: #000000;
 }
 
@@ -172,6 +172,7 @@ h1 {
 .main-info {
 	float: left;
 	width: 947px;
+	margin-bottom: 52px;
 	background-color: #f6f6f6;
 }
 
@@ -195,11 +196,11 @@ h1 {
 .description p {
 	font-size: 17px;
 	line-height: 28px;
-	font-stretch: expanded;
 }
 
 .stage {
 	width: 100%;
+	height: 560px;
 	padding-top: 13px;
 	padding-left: 38px;
 }	
@@ -208,4 +209,293 @@ h1 {
 	font-size: 24px;
 	line-height: 28px;
 	margin-bottom: 26px;
+}
+
+.promo {
+	width: 801px;
+	height: 185px;
+	margin-left: 97px;
+	padding-left: 133px;
+	padding-top: 28px;
+	background-color: #FFF;
+}
+
+.promo p {
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.line {
+	position: absolute;
+	top: 1131px;
+	left: 266px;
+	z-index: 10;
+}
+
+.article-block {
+	width: 937px;
+	margin-top: 51px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding-top: 11px;
+	padding-left: 33px;
+	background-color: #FFF;
+}
+
+.article-text p {
+	font-size: 17px;
+	line-height: 28px;
+}
+
+.article-text h2 {
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 26px;
+	margin-top: 38px; 
+}
+
+.contacts {
+	float: left;
+	width: 442px;
+}
+
+.contacts h2 {
+	font-size: 24px;
+	line-height: 28px;
+	margin-top: -13px;
+	margin-bottom: 26px;
+}
+
+.contacts p {
+	font-size: 17px;
+	line-height: 10px;
+}
+
+.contacts span {
+	color: #ea695c;
+}
+
+.form {
+	float: left;
+	width: 442px;
+}
+
+.form h2 {
+	font-size: 24px;
+	line-height: 28px;
+	margin-top: -13px;
+	margin-bottom: 31px;
+}
+
+.form input {
+	width: 367px;
+	height: 59px;
+	background-color: #f6f6f6;
+	border: none;
+	margin-bottom: 10px;
+	margin-left: 1px;
+	padding-left: 27px;
+	font-size: 16px; 
+	color: #a1a0a0;
+}
+
+.form button {
+	width: 190px;
+	height: 54px;
+	background-color: #e33321;
+	border: none;
+	margin-left: 3px;
+	margin-top: 13px;
+	margin-bottom: 58px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/*=======================================================================
+----------------------------------Footer---------------------------------
+=======================================================================*/
+
+.footer-menu {
+	width: 100%;
+	height: 428px;
+	background-color: #484848;
+}
+
+.about {
+	float: left;
+	width: 320px;
+	padding-left: 71px; 
+	padding-top: 68px;
+}
+
+.about h3 {
+	position: absolute;
+	top: 2358px;
+	left: 19px;
+	z-index: 12;
+	font-size: 30px;
+	transform: rotate(270deg);
+	color: #706f6f;
+}
+
+.footer-menu li {
+	list-style: none;
+    margin-bottom: 9px;
+    letter-spacing: 0.5px;
+}
+
+.footer-menu a {
+	font-size: 12px;
+	text-decoration: none;
+	color: #FFF;	
+}
+
+.production {
+	float: left;
+	width: 290px;
+	padding-left: 40px; 
+	padding-top: 68px;
+}
+
+.production h3 {
+	position: absolute;
+	top: 2399px;
+	left: 266px;
+	z-index: 12;
+	font-size: 31px;
+	transform: rotate(270deg);
+	color: #706f6f;
+}
+
+.services {
+	float: left;
+	width: 290px;
+	padding-left: 40px; 
+	padding-top: 68px;
+}
+
+.services h3 {
+	position: absolute;
+	top: 2365px;
+	left: 588px;
+	z-index: 12;
+	font-size: 31px;
+	transform: rotate(270deg);
+	color: #706f6f;
+}
+
+.social {
+	float: left;
+	width: 320px;
+	padding-left: 71px; 
+	padding-top: 68px;
+	margin-bottom: 80px;
+}
+
+.social h3 {
+	position: absolute;
+	top: 2388px;
+	left: 860px;
+	z-index: 12;
+	font-size: 31px;
+	transform: rotate(270deg);
+	color: #706f6f;
+}
+
+.social ul {
+	margin-left: -36px;
+}
+
+.social p {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 12px;
+	line-height: 23px;
+	margin-bottom: 15px;
+}
+
+.social a {
+	margin-left: 31px;
+}
+
+.info {    
+	position: absolute;
+    top: 2619px;
+    left: 50px;
+    z-index: 10;
+	width: 1140px;
+	height: 84px;
+	border-top: 1px solid #595959;
+}
+
+.that {
+	float: left;
+	line-height: 55px;
+	vertical-align: middle;
+}
+
+.that p {
+	color: #FFF;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.who {
+	float: right;
+	width: 45%;
+	text-align: right;
+	line-height: 55px;
+	vertical-align: middle;
+}
+
+.who p {
+	color: #FFF;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.icon {
+	position: absolute;
+	bottom: 12px;
+	right: 253px;
+	z-index: 10;
+}	
+
+.envelope {
+	position: absolute;
+	bottom: 270px;
+	right: 249px;
+	z-index: 10;
+}
+
+.imgtel {
+	position: absolute;
+	bottom: 240px;
+	right: 250px;
+	z-index: 10;
+}
+
+.insta {
+	position: absolute;
+	bottom: 207px;
+	right: 247px;
+	z-index: 10; 
+}
+
+.youtube {
+	position: absolute;
+	bottom: 179px;
+	right: 247px;
+	z-index: 10;
+}
+
+.imgsearch {
+	position: absolute;
+	bottom: 150px;
+	right: 249px;
+	z-index: 10;
 }
