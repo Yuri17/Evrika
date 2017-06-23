@@ -121,7 +121,7 @@
 										<input type="text" name="name" value="ваше имя">
 										<input type="text" name="tel" value="телефон">
 										<input type="text" name="email" value="email">
-										<button>Отправить</button>
+										<button type="submit">Отправить</button>
 									</form>
 								</section>
 							</div>
@@ -208,7 +208,7 @@
 								</li>
 								<li>
 									<img src="img/tel.png" class="imgtel">
-									<a href="#">Заказать звонок</a>
+									<a href="#modal" class="button openmodal">Заказать звонок</a>
 								</li>
 								<li>
 									<img src="img/insta.png" class="insta">
@@ -237,6 +237,17 @@
 					</section>
 				</footer>
 
+			</div>
+
+			<div id="modal" class="modal">
+				<div>
+					<p>Оставьте Ваш телефон<br> и наш консультант свяжется с Вами</p>
+					<form id="backPhone" name="backPhone">
+						<input name="telephone" type="Tel" id="telForm" maxlength="20" placeholder="Введите ваш телефон" required=”required” autofocus="1">
+						<button id="telButton" type="submit" form="backPhone">Перезвонить</button>
+					</form>
+				</div>		
+				<a href="#close" title="Закрыть"></a>
 			</div>
 
 		</body>
